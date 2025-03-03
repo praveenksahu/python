@@ -70,3 +70,8 @@ print(students["student2"])
 
 #Access values
 print(students["student1"]['name'])
+
+#Dictionary Comprehension
+#new_dict={key_expression: value_expression for item in iterable if condition}
+squares={x: x**2 for x in range(1,6)}
+print(squares)
