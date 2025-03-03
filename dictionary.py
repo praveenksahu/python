@@ -67,3 +67,6 @@ print("****************")
 print(students)
 print(students["student1"])
 print(students["student2"])
+
+#Access values
+print(students["student1"]['name'])
