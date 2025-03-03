@@ -29,3 +29,10 @@
 #Square with comprehension
 squares = {x**2 for x in range(1,5)}
 print(squares)
+
+#set constructor eg
+set_list = [1,2,3,4,5]
+print(type(set_list))
+set_list1 = set(set_list)
+print(type(set_list1))
+print(set_list1)
